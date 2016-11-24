@@ -1,4 +1,4 @@
 language: java
-script: 
-    - jdk_switcher use oraclejdk8
-    - mvn clean verify
+jdk:
+  - openjdk7
+script: mvn clean verify
